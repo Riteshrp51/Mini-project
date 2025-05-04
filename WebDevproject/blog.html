@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Colorful Blog</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header with Title, Subtitle, and Navigation -->
+    <header class="bg-purple-600 text-white py-6 text-center rounded-b-md shadow-md">
+        <h1 class="text-3xl font-bold">My Colorful Blog</h1>
+        <p class="text-lg mb-4">Exploring the Vibrant World Around Us</p>
+        <nav>
+            <ul class="flex justify-center space-x-8 text-white text-base font-medium">
+                <li><a href="index.html" class="hover:text-gray-300">Home</a></li>
+                <li><a href="about.html" class="hover:text-gray-300">About</a></li>
+                <li><a href="blog.html" class="hover:text-gray-300">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Blog Cards Section -->
+    <main class="container mx-auto mt-6 p-4">
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+
+            <article class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:scale-105">
+                <img src="banner/b4.jpg" alt="Fashionable couple in jackets" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold text-blue-600">Stylish Streetwear Collection</h2>
+                    <p class="text-gray-500 text-sm mb-2">Published: February 10, 2024</p>
+                    <p class="text-gray-700">
+                        Explore the latest trends in urban fashion with our new streetwear collection. Perfect for those who want to make a statement.
+                    </p>
+                </div>
+            </article>
+
+            <article class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:scale-105">
+                <img src="banner/b10.jpg" alt="Green t-shirts on hangers" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold text-green-600">Sustainable Fashion Choices</h2>
+                    <p class="text-gray-500 text-sm mb-2">Published: March 15, 2024</p>
+                    <p class="text-gray-700">
+                        Discover our eco-friendly t-shirt line, made with sustainable materials and ethical practices. Dress good, feel good.
+                    </p>
+                </div>
+            </article>
+
+            <article class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:scale-105">
+                <img src="banner/b17.jpg" alt="Woman in orange skirt and hat" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold text-orange-600">Summer Fashion Trends</h2>
+                    <p class="text-gray-500 text-sm mb-2">Published: April 22, 2024</p>
+                    <p class="text-gray-700">
+                        Get ready for summer with our vibrant collection of dresses, skirts, and accessories. Perfect for sunny days and warm nights.
+                    </p>
+                </div>
+            </article>
+
+            <article class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:scale-105">
+                <img src="banner/b16.jpg" alt="Colorful shopping bags" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold text-red-600">The Joy of Shopping</h2>
+                    <p class="text-gray-500 text-sm mb-2">Published: May 1, 2024</p>
+                    <p class="text-gray-700">
+                        Explore the thrill of finding the perfect items and the happiness that comes with a successful shopping trip.
+                    </p>
+                </div>
+            </article>
+
+            <article class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:scale-105">
+                <img src="banner/b19.jpg" alt="Person reading a book" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold text-indigo-600">Immersive Reading Experience</h2>
+                    <p class="text-gray-500 text-sm mb-2">Published: June 18, 2024</p>
+                    <p class="text-gray-700">
+                        Immerse yourself in the world of stories and knowledge.
+                    </p>
+                </div>
+            </article>
+
+            <article class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:scale-105">
+                <img src="products/f7.jpg" alt="Elegant floral pants" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold text-pink-600">Spring Floral Fashion</h2>
+                    <p class="text-gray-500 text-sm mb-2">Published: July 20, 2024</p>
+                    <p class="text-gray-700">
+                       Step into spring with our new collection of floral pants. Combining comfort with elegance, these pants are perfect for the new season.
+                    </p>
+                </div>
+            </article>
+
+            <article class="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:scale-105">
+                <img src="products/f8.jpg" alt="Woman's top with cat print" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold text-yellow-600">Funky Cat Print Top</h2>
+                    <p class="text-gray-500 text-sm mb-2">Published: August 12, 2024</p>
+                    <p class="text-gray-700">
+                       Add a playful touch to your wardrobe with our cat print top. The unique design is sure to make a statement.
+                    </p>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-200 text-gray-700 py-4 text-center rounded-t-md shadow-md">
+        <p>&copy; 2024 My Colorful Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
